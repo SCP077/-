@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/regeocoding/regeocoding",
+    "pages/search/search",
+    "pages/suggestion/suggestion",
+    "pages/weather/weather",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#121212",
+    "navigationBarTitleText": "休闲地图",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor": "#ddd"
+  },
+   "tabBar": {
+      "color": "#000",
+      "selectedColor": "#4db900",
+      "backgroundColor": "#fbfbfd",
+      "position": "bottom",
+      "list": [{
+        "pagePath": "pages/regeocoding/regeocoding",
+        "iconPath": "img/1.png",
+        "selectedIconPath": "img/微信图片_20181208172919.png",
+        "text": "我的位置"
+      },
+      {
+        "pagePath": "pages/suggestion/suggestion",
+        "iconPath": "img/3.png",
+        "selectedIconPath": "img/微信图片_20181208172914.png",
+        "text": "今日新闻"
+      },
+      {
+        "pagePath": "pages/search/search",
+       "iconPath": "img/2.png",
+      "selectedIconPath": "img/微信图片_20181208172926.png",
+        "text": "周边美食"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "iconPath": "img/4.png",
+        "selectedIconPath": "img/微信图片_20181208172923.png",
+        "text": "城市天气"
+      }]
+  } ,
+    "networkTimeout": {
+      "request": 120000,
+      "downloadFile": 120000}
+}
